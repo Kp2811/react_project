@@ -1,0 +1,110 @@
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  
+  width: 90%;
+  margin: auto;
+  
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 100%; 
+    padding: 10px; 
+ }
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th,
+table td {
+  border: 1px solid #fff;
+  padding: 8px;
+  text-align: left;
+  
+}
+tr:hover {background-color: #c69898;}
+
+table th {
+  background-color: #cacaca;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.colored-button {
+  padding: 8px 20px;
+  margin-top: 10px;
+  gap: 10px;
+  cursor: pointer;
+
+}
+.colored-button:nth-child(Edit) { 
+background-color: #c69898;
+gap: -10px;
+  color: beige;
+}
+.colored-button:nth-child(Delete) { 
+  background-color: #c69898;
+  color: red;
+  gap: 10px;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+

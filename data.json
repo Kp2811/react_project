@@ -1,0 +1,88 @@
+{
+    "users": [
+        {
+            "employeeId": 1,
+            "employeeDetail": {
+                "title": "Mr",
+                "name": "John",
+                "gender": "Male",
+                "permanentAddress": "My permanent add",
+                "presentAddress": "Pune",
+                "email": "test@gamil.com",
+                "phone": "1234567890",
+                "emergencyContactNumber": "22345679984"
+            },
+            "educationalDetail": [
+                {
+                    "courseLevel": "school",
+                    "courseName": "school Name here",
+                    "passoutyear": "2001",
+                    "anygap": "no"
+                }
+            ]
+        },
+        {
+            "employeeId": 2,
+            "employeeDetail": {
+                "title": "Mr",
+                "name": "Pranav",
+                "gender": "Male",
+                "permanentAddress": "My permanent add",
+                "presentAddress": "Pune",
+                "email": "1test@gamil.com",
+                "phone": "1234567890",
+                "emergencyContactNumber": "22345679984"
+            },
+            "educationalDetail": [
+                {
+                    "courseLevel": "school",
+                    "courseName": "school Name here",
+                    "passoutyear": "2001",
+                    "anygap": "no"
+                }
+            ]
+        },
+        {
+            "employeeId": 3,
+            "employeeDetail": {
+                "title": "Mr",
+                "name": "",
+                "gender": "Male",
+                "permanentAddress": "My permanent add",
+                "presentAddress": "Pune",
+                "email": "test@gamil.com",
+                "phone": "1234567890",
+                "emergencyContactNumber": "22345679984"
+            },
+            "educationalDetail": [
+                {
+                    "courseLevel": "school",
+                    "courseName": "school Name here",
+                    "passoutyear": "2001",
+                    "anygap": "no"
+                }
+            ]
+        },
+        {
+            "employeeId": 4,
+            "employeeDetail": {
+                "title": "Mr",
+                "name": "singham",
+                "gender": "Male",
+                "permanentAddress": "My permanent add",
+                "presentAddress": "solapur",
+                "email": "36test@gamil.com",
+                "phone": "1234567890",
+                "emergencyContactNumber": "22345679984"
+            },
+            "educationalDetail": [
+                {
+                    "courseLevel": "school",
+                    "courseName": "school Name here",
+                    "passoutyear": "2001",
+                    "anygap": "no"
+                }
+            ]
+        }
+    ]
+}
